@@ -40,6 +40,7 @@ Setup a Raspberry Pi Zero (or any Pi) with a camera module and a momentary push 
 	- Every time you start the Timelapse, it will create a new folder with the current date and time where it will dump all photos taken.
  - 3D printed Shell: Print the shell to fit the Pi Zero + UPS Battery + Camera.
  	- You will need to drill a small hole for the button to poke through. I did it this way so you can put a button anywhere you'd like or use any type of button you want.
+  	- 3D Model was remixed for this project using [this model by signag](https://makerworld.com/en/models/1804527-case-for-raspberry-pi-zero-models-with-camera#profileId-1924557).
 
 ## Photos
 ![Screenshot](https://github.com/dansl/Pi-Zero-Camera-Timelapse-Box/raw/refs/heads/main/photos/screenshot.png)
