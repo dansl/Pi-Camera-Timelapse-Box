@@ -41,6 +41,12 @@ Setup a Raspberry Pi Zero (or any Pi) with a camera module and a momentary push 
  - 3D printed Shell: Print the shell to fit the Pi Zero + UPS Battery + Camera.
  	- You will need to drill a small hole for the button to poke through. I did it this way so you can put a button anywhere you'd like or use any type of button you want.
   	- 3D Model was remixed for this project using [this model by signag](https://makerworld.com/en/models/1804527-case-for-raspberry-pi-zero-models-with-camera#profileId-1924557).
+  
+## How to change Duration and/or Photo internal
+Open the "timelapse.sh" file, and change the "HOW_LONG" and "HOW_OFTEN" to a different amount. It requires Milliseconds, default is 3600000 milliseconds (1 Hour) for HOW_LONG and 2000 milliseconds (2 seconds) for HOW_OFTEN. This means it will take a photo every 2 seconds over the course of 1 hour, then it will stop. 
+
+## How much storage do I need?
+Depends on the quality settings and which camera you have attached. For my setup, each photo is about 2MB in size. A photo every 2 seconds over the course of an hour would take around 1800 photos, which would be around 3.6GB in file size. 
 
 ## Photos
 ![Screenshot](https://github.com/dansl/Pi-Zero-Camera-Timelapse-Box/raw/refs/heads/main/photos/screenshot.png)
